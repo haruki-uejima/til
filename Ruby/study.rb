@@ -27,7 +27,7 @@ end
 hello(name: 'uejima', show: true)
 hello(show: true, name: 'haruki')
 
-#例外処理(不足の事態に備えるため)
+#例外処理(不足の事態に備える)
 begin
     # 例外発生箇所
     val = 10 / 0
