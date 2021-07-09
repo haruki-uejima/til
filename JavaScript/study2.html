@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>パスワードの判定</title>
+</head>
+
+<body>
+    <form name="main">
+        <div width="100%" height="100%" align="center">
+
+            <!-- ページの遷移先をラジオボタンを用いて決定する。 -->
+            <p><input type="radio" name="pageSelect" value="1">Qiita</p>
+            <p><input type="radio" name="pageSelect" value="2">GitHub</p>
+            <p><input type="button" value="遷移" onclick="pageForward()"></p>
+        </div>
+    </form>
+    <script type="text/javascript">
+        function pageForward() {
+            var check = document.main.pageSelect[0].checked;
+
+            if (check) {
+                document.location = "https://qiita.com/uejima_haruki";
+            } else {
+                document.location = "https://github.com/uejima-haruki";
+            }
+        }</script>
+</body>
+
+</html>
