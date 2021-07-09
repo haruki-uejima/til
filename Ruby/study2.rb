@@ -1,1 +1,1 @@
-# Railsのライブラリの理解をする。
+puts 'hello'
