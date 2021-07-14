@@ -1,2 +1,2 @@
-// テスト　Hello World !　
+// テスト Hello World !　
 console.log("Hello World !");
